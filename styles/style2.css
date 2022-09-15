@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2c3e50;
+    color: #95a5a6;
+}
+
+.row {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.column-left {
+    width: 30%;
+}
+
+.column-left img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.column-left h2 {
+    color: white;
+    text-align: center;
+}
+
+.sub-title {
+    color: #95a5a6;
+    margin-top: -0.8rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.sosmed a {
+    text-align: left;
+    text-decoration: none;
+    color: #95a5a6;
+    padding-left: 1.5rem;
+    font-size: 1rem;
+}
+
+.sosmed a:hover {
+    text-decoration: underline;
+}
+
+.sosmed i {
+    margin-right: 5px;
+}
+
+.column-right {
+    width: 70%;
+}
+
+.column-right h2 {
+    margin-top: 0;
+    text-align: left;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.column-right p, th, td, li {
+    font-size: 1.1rem;
+}
+
+.column-right table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    color: black;
+}
+
+td, tr {
+    border: 2px black solid;
+    padding: 5px 15px;
+}
+
+.table-head {
+    background-color: darkblue;
+    color: white;
+    border: 2px darkblue solid;
+    padding: 0;
+}
+
+td {
+    text-align: center;
+}
+
+footer {
+    color: white;
+    font-size: 1rem;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    height: 2.5rem;
+}
